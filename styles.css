@@ -60,3 +60,17 @@ a:hover{
     background-color: crimson;
     color: white;
 }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 16px;
+    background-color: teal;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #ffd54f;
+}
